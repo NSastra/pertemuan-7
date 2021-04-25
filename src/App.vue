@@ -1,19 +1,20 @@
 <template>
   <div id="nav">
     <div class="container">
-      <router-view />
+      <Navbar />
+      <router-view/>
     </div>
   </div>
 </template>
 <script>
-// @ is an alias to /src
-// import Navbar from "@/components/Navbar.vue";
+//@ is an alias to /src
+import Navbar from "@/components/Navbar.vue";
 
-// export default {
-//   name: "Home",
-//   components: {
-    
-//   },
-// };
+export default {
+  name: "Home",
+  components: {
+    Navbar,
+  },
+};
 </script>
 

@@ -1,36 +1,6 @@
 <template>
-  <div class="home">
-    <hr class="my-3">
-    <table class="table">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Team</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>Steph</td>
-      <td>Curry</td>
-      <td>Warriors</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Klay</td>
-      <td>Thompson</td>
-      <td>Warriors</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td colspan="2">Draymond Green</td>
-      <td>Warriors</td>
-    </tr>
-  </tbody>
-</table>
-  </div>
+<h1 align="center"> Program Absensi Mahasiswa </h1>
+<img src="../assets/logo-cic.jpg">
 </template>
 
 <script>
@@ -43,4 +13,12 @@
         
 //   }
 // }
+
+export default {};
 </script>
+<style>
+img {
+  height: 500px;
+  width: 1100px;
+}
+</style>
